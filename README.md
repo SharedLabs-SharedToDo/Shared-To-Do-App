@@ -152,9 +152,13 @@ Our app allows a group of people to come together and create a project. When you
 **Post**
 | Property      | Type          | Description  |
 | ------------- |:-------------:| ------------:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| objectId     | string | unique id for the user post (default field) |
+| author      | pointer to User |   post author |
+| message | string    |    post message by author|
+| image | File (optional)  |  image that User can add to post |
+| likesCount | number    |  number of likes for post|
+| createdAt | DateTime     |   date when post is created (default field) |
+| updatedAt | DateTime     |   date when post is last updated (default field) |
 
 **Post**
 | Tables        | Are           | Cool  |
