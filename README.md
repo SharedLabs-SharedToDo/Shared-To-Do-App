@@ -146,9 +146,23 @@ Our app allows a group of people to come together and create a project. When you
 <a href="https://imgur.com/u8kGsu4"><img src="https://i.imgur.com/u8kGsu4.gif" title="source: imgur.com" /></a>
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+**Post**
+| Property      | Type          | Description  |
+| ------------- |:-------------:| ------------:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+**Post**
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
