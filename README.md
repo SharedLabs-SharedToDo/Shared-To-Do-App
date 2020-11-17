@@ -149,6 +149,26 @@ Our app allows a group of people to come together and create a project. When you
 
 ### Models
 
+**Task**
+| Property      | Type          | Description  |
+| ------------- |:-------------:| ------------:|
+| objectId     | string | unique id for the user task (default field) |
+| title     | string |   main title of the task |
+| isDone | boolean  | checks if the task has been finished|
+| deadline  | DateTime     |   date when task should be finished |
+| createdAt | DateTime     |   date when task is created (default field) |
+| updatedAt | DateTime     |   date when task is last updated (default field) |
+
+**User**
+| Property      | Type          | Description  |
+| ------------- |:-------------:| ------------:|
+| objectId     | string | unique id for the user (default field) |
+| username  | string |   username of the User |
+| password| string | password of the user|
+| email  | string  |   email of the user |
+| createdAt | DateTime     |   date when user is created (default field) |
+| updatedAt | DateTime     |   date when user is last updated (default field) |
+
 **Post**
 | Property      | Type          | Description  |
 | ------------- |:-------------:| ------------:|
@@ -159,13 +179,6 @@ Our app allows a group of people to come together and create a project. When you
 | likesCount | number    |  number of likes for post|
 | createdAt | DateTime     |   date when post is created (default field) |
 | updatedAt | DateTime     |   date when post is last updated (default field) |
-
-**Post**
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 ### Networking
 - [Add list of network requests by screen ]
